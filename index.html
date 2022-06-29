@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Basketball!</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div id="app">
+      <h1>
+        石油杯小组赛积分系统
+      </h1>
+      <a href="help.html">使用帮助</a>
+      <a href="hof.html">历届石油杯冠军</a>
+      <a href="license.html">许可信息</a>
+      <h2> 选手 </h2>
+      <div id="player">
+        <div id="player-one">
+          <div id="player-one-name">参赛者 1</div> 
+          <input id="player-one-score">
+        </div>
+        <div id="player-two">
+          <div id="player-two-name">参赛者 2</div>
+          <input id="player-two-score">
+        </div>
+        <br/>
+        <button class="blp" id="newgame">New Game</button>
+        <button class="blp" id="submit">Submit</button>
+        <!--<button class="blp" id="savedata">Generate JSON</button>-->
+        <button class="blp" id="clearmsg">Clear Message</button>
+      </div>
+      <h2> 信息 </h2>
+      <ul id="result"></ul>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
